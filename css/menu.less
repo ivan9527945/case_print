@@ -1,0 +1,34 @@
+.menu{
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+  &.active{
+    background: rgba(0,0,0,1);
+  }
+}
+.menu-box{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 200px;
+  img{
+    width: 100%;
+  }
+}
+.nav-link{
+  font-size: 12px;
+  transition: all 0.3s;
+  color: #fff;
+  &:hover{
+    color: #fff;
+    transform: scale(1.5);
+  }
+}
