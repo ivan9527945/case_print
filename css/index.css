@@ -11,6 +11,23 @@
 }
 .process-title {
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+.process-title h3 {
+  font-size: 60px;
+  color: #333333;
+}
+.process-title span {
+  color: #333;
+}
+.process-title p {
+  font-size: 50px;
+  color: #808080;
+  margin-bottom: 30px;
 }
 .process_cover {
   width: 100%;

@@ -29,6 +29,40 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/footer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/footer-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/footer.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/footer.css.map",
+		"oF": 0
+		},
+	"\/css\/footer.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
 	"\/css\/index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -96,6 +130,13 @@
 		"sI": 0,
 		"sM": 0,
 		"sU": 0
+		},
+	"\/footer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/footer.html",
+		"oF": 0
 		},
 	"\/img\/1.png": {
 		"ft": 32768,

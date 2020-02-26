@@ -1,0 +1,14 @@
+.footer-content {
+  float: left;
+  height: 50px;
+  width: 100%;
+  background: #5E5651;
+  color: rgba(242, 208, 162, 0.7);
+}
+.footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+/*# sourceMappingURL=footer.css.map */

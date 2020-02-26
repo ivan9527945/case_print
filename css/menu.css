@@ -11,6 +11,7 @@
   background: #000000;
 }
 .menu-box {
+  height: 70px;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -20,6 +21,10 @@
 }
 .logo img {
   width: 100%;
+}
+.logo a {
+  color: #fff;
+  font-size: 30px;
 }
 .nav-link {
   font-size: 12px;
