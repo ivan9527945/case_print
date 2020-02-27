@@ -1,14 +1,111 @@
-.footer-content {
+#footer {
+  font-family: 'Playfair Display', serif;
+  position: relative;
   float: left;
-  height: 50px;
   width: 100%;
-  background: #5E5651;
-  color: rgba(242, 208, 162, 0.7);
+  background: #f5f5f5;
 }
-.footer-box {
-  display: flex;
+#footer .logo {
+  width: 120px;
+  position: absolute;
+  border: 5px solid #f5f5f5;
+  padding: 10px;
+  background: #fff;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#footer .copyright-title {
+  text-align: center;
+  font-size: 1rem;
+}
+#footer .subtitle {
+  text-align: center;
+}
+#footer .copyright {
+  float: left;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+#footer .copyright a {
+  color: #9a7e40;
+}
+#footer .social-media {
+  float: right;
+  padding-right: 25px;
+}
+#footer .social-media ul {
+  list-style: none;
+}
+#footer .social-media li {
+  float: left;
+}
+#footer .social-media a {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  margin: 10px;
+  border: 1px solid #222;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  color: #222;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: .5s;
+}
+#footer .social-media a:hover {
+  background: black;
+  color: #fff;
+}
+#footer .top {
+  padding: 40px 0;
+  background: #e2e2e2;
+}
+#footer .bottom {
+  margin: 0 auto;
+  padding: 20px;
+  background: #d4d4d4;
+}
+.footinfo {
+  text-align: center;
+  list-style-type: none;
+}
+.footinfo .contact-info {
+  margin-top: 35px;
+  font-size: 0.6rem;
+}
+.footinfo h3.title {
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 24px;
+}
+.footinfo .map a {
+  color: #d6b161;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footinfo .big {
+  text-transform: uppercase;
+}
+.footinfo .phone {
+  padding: 5px;
+}
+.footinfo .mail {
+  padding: 5px;
+}
+.footinfo .map {
+  padding: 10px;
+}
+.contact-info {
+  color: #7e7e7e;
+  line-height: 30px;
+}
+.contact-info a {
+  color: #7e7e7e;
+  text-decoration: none;
 }
 /*# sourceMappingURL=footer.css.map */

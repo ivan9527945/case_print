@@ -7,7 +7,8 @@
 }
 .process-bg {
   width: 100%;
-  background: url(../img/company.jpg) center fixed;
+  background: url(../img/process.png) center fixed;
+  background-repeat: no-repeat;
 }
 .process-title {
   height: 300px;
