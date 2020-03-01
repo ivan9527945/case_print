@@ -160,17 +160,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/123.png": {
-		"ft": 32768,
-		"iS": 190354,
-		"oA": 0,
-		"oAP": "\/img\/123.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/2.png": {
 		"ft": 32768,
 		"iS": 1528,
@@ -300,6 +289,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/company.png": {
+		"ft": 32768,
+		"iS": 468558,
+		"oA": 0,
+		"oAP": "\/img\/company.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/company_border.png": {
 		"ft": 32768,
 		"iS": 20866,
@@ -341,6 +341,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/process.png": {
+		"ft": 32768,
+		"iS": 206479,
+		"oA": 0,
+		"oAP": "\/img\/process.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
