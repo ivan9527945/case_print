@@ -1,6 +1,123 @@
-.test {
-  padding-top: 70px;
-  height: 800px;
-  background: red;
+.about-slider img {
+  width: 100%;
+}
+.about-box {
+  background: #2b2b2b;
+}
+.about-content {
+  display: flex;
+  padding: 30px;
+  color: #fff;
+  background: #44444487;
+}
+.about-content:nth-child(2) {
+  padding: 30px 30px 100px 30px;
+}
+.about-content .about-left {
+  width: 50%;
+}
+.about-content .about-right {
+  width: 50%;
+}
+.about-content .about-title {
+  padding-top: 110px;
+  margin: -60px auto 50px auto;
+  border-left: 60px #c6a96a solid;
+}
+.about-content .about-title span {
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #c6a96a;
+}
+.about-content .about-info {
+  font-family: 'Playfair Display', serif;
+}
+.about-content .about-info span {
+  display: inline-block;
+  margin-bottom: 30px;
+  letter-spacing: 4px;
+}
+.about-content .position-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.about-content .position-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-content .about-line-img {
+  position: relative;
+  width: 90%;
+}
+.about-content .about-line-img .about-line-border-right {
+  position: absolute;
+  top: -25px;
+  right: -70px;
+  z-index: 1;
+  width: 200px;
+  height: 50px;
+  background: #d6000f;
+}
+.about-content .about-line-img .about-line-border-left {
+  position: absolute;
+  top: -25px;
+  left: -70px;
+  z-index: 1;
+  width: 200px;
+  height: 50px;
+  background: #d6000f;
+}
+.about-content .about-line-img img {
+  position: inherit;
+  width: 100%;
+  z-index: 2;
+}
+@media all and (max-width: 768px) {
+  .about-content .about-title {
+    padding-top: 80px;
+    margin: -60px auto 20px auto;
+    border-left: 20px #c6a96a solid;
+  }
+  .about-content .about-title span {
+    font-size: 30px;
+  }
+  .about-content .about-line-img .about-line-border-right {
+    right: -40px;
+  }
+  .about-content .about-line-img .about-line-border-left {
+    left: -40px;
+  }
+}
+@media all and (max-width: 520px) {
+  .about-content {
+    flex-wrap: wrap;
+  }
+  .about-content:nth-child(2) {
+    margin-top: 50px;
+  }
+  .about-content .about-left {
+    width: 100%;
+  }
+  .about-content .about-title {
+    border-left: 12px #c6a96a solid;
+  }
+  .about-content .about-title span {
+    font-size: 25px;
+  }
+  .about-content .about-right {
+    width: 100%;
+  }
+  .about-content .about-line-img {
+    width: 100%;
+  }
+  .about-content .position-left {
+    display: none;
+  }
+  .about-content .about-line-img .about-line-border-right {
+    right: -15px;
+  }
 }
 /*# sourceMappingURL=about.css.map */
