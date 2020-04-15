@@ -1,12 +1,13 @@
 #content-about{
   position: relative;
-  margin-top: -120px;
+  margin-bottom: -80px;
   .container{
     margin-bottom: 100px;
   }
 }
 .about-slider{
-  img{
+  height: 90vh;
+  video{
     width: 100%;
   }
 }
@@ -36,14 +37,31 @@
 }
 .qrcode{
   width: 130px;
-  margin: 0 auto;
   img{
     width: 100%;
   }
 }
 
-.mapview{
-  margin-bottom: 100px;
+.content-content{
+  display: flex;
+  .contact-info{
+    padding-left: 20px;
+    width: 50%;
+  }
+  .mapview{
+    width: 50%;
+  }
+  .contact-info-title{
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #d6b365;
+  }
+  .contact-info-content{
+    span{
+      display: block;
+    }
+  }
 }
 
 @media all and (max-width:520px){
