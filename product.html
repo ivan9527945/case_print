@@ -1,0 +1,100 @@
+<script src="./js/jquery.js"></script>
+<link rel="stylesheet" href="./css/product.css">
+
+<body>
+  <div id="load"></div>
+  <div id="menu"></div>
+  <div class="product-slider">
+    <img src="./img/product.jpg" alt="">
+  </div>
+  <div class="contact-box">
+    <div class="container">
+
+      <div class="product-box">
+        <div class="accordion" id="accordionExample">
+          <div class="tab-title-type">產品分類</div>
+          <div>
+            <div id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link tab-title" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  袋類包裝
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="collapse-content">
+                抗菌防護隨身卡鋁箔袋(客製化尺寸)
+              </div>
+              <div class="collapse-content">
+                無夾邊背封袋
+              </div>
+              <div class="collapse-content">
+                鋁箔夾鏈立袋(通用)
+              </div>
+              <div class="collapse-content">
+                側夾邊背封袋(透明袋)
+              </div>
+              <div class="collapse-content">
+                側夾邊背封袋(正鋁箔)
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link tab-title collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  自動包裝專用捲材
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="collapse-content">
+                客製化收縮膜
+              </div>
+              <div class="collapse-content">
+                沐浴瓶 / 噴霧罐 收縮膜
+              </div>
+              <div class="collapse-content">
+                沐浴瓶 / 噴霧罐 收縮膜
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link tab-title collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  貼紙
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="collapse-content">
+                透明貼紙
+              </div>
+              <div class="collapse-content">
+                珠光貼紙
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="product-content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, animi sit magni ad soluta labore dolor minus sapiente incidunt eum!
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div id="footer" class="clearfix"></div>
+</body>
+
+<script>
+  $(function(){
+    $("#load").load("./load.html");
+    $("#menu").load("./menu.html");
+    $("#footer").load("./footer.html");
+  });
+</script>

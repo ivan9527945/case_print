@@ -16,6 +16,13 @@
 		"oAP": "\/about.html",
 		"oF": 0
 		},
+	"\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contact.html",
+		"oF": 0
+		},
 	"\/css\/about.css": {
 		"aP": 1,
 		"bl": 0,
@@ -69,6 +76,40 @@
 		"oAP": "\/css\/bootstrap.min-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/contact.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/contact-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/contact.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/contact.css.map",
+		"oF": 0
+		},
+	"\/css\/contact.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/contact.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
 		},
 	"\/css\/footer.css": {
 		"aP": 1,
@@ -165,6 +206,40 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/menu.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/css\/product.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/product-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/product.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/css\/product.css.map",
+		"oF": 0
+		},
+	"\/css\/product.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/product.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -382,6 +457,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/contact.jpg": {
+		"ft": 16384,
+		"iS": 152796,
+		"oA": 0,
+		"oAP": "\/img\/contact.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/index_process_line.png": {
 		"ft": 32768,
 		"iS": 15102,
@@ -423,6 +508,27 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/product.jpg": {
+		"ft": 16384,
+		"iS": 835974,
+		"oA": 0,
+		"oAP": "\/img\/product.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/qrcode.png": {
+		"ft": 32768,
+		"iS": 1035,
+		"oA": 0,
+		"oAP": "\/img\/qrcode.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -475,6 +581,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/menu.html",
+		"oF": 0
+		},
+	"\/product.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/product.html",
 		"oF": 0
 		}
 	},
